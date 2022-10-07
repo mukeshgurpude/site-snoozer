@@ -1,0 +1,11 @@
+{
+    "short_name": "site-snoozer",
+    "name": "Site snoozer",
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ]
+}
