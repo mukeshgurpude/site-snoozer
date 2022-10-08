@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch:ts": "tsc -w scripts/*.ts",
+    "watch:scss": "sass -w styles --update"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.197",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.4"
+  }
+}
