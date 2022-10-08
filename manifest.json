@@ -12,5 +12,8 @@
     ],
     "action": {
         "default_popup": "popup/snooze.html"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
     }
 }
