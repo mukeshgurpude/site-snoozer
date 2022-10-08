@@ -11,6 +11,5 @@ document.getElementById('snooze')?.addEventListener('click', function(ev) {
         chrome.alarms.create(url as string, {
             delayInMinutes: 10
         })
-        console.debug(`Created an alarm for ${url}`)
     })
 })

@@ -1,5 +1,4 @@
 chrome.alarms.onAlarm.addListener(ev => {
-    console.debug('Received an alarm')
     chrome.notifications.create(ev.name, {
         message: 'Test notification',
         iconUrl: '../icons/android-chrome-192x192.png',
